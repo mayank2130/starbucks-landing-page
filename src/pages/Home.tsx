@@ -103,7 +103,7 @@ const Home = () => {
             }}
             className="text-transparent text-[100px] font-bold [writing-mode:vertical-rl] [-webkit-text-stroke:2px_white]"
           >
-            ICE COFFEE2
+            ICE COFFEE
           </motion.h1>
           <motion.h1
             initial={{ y: 400 }}
