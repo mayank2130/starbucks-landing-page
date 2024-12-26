@@ -33,7 +33,6 @@ const Home = () => {
     <div className="bg-[#00A86B] h-screen flex justify-between a">
       <div className="flex flex-col">
         <Navbar />
-
         <motion.div
           initial={{ x: -200, opacity: 0, scale: 0.4 }}
           animate={{ x: 0, opacity: 1, scale: 1 }}
@@ -42,8 +41,8 @@ const Home = () => {
         >
           <div className="relative rounded-3xl my-6 px-6 py-4 overflow-hidden">
             <div className="relative ml-24">
-              <p className="mb-5 text-4xl font-semibold">STARBUCKS IS...</p>
-              <h1 className="text-[140px] font-anton leading-tight text-gray-100">
+              <p className=" text-4xl font-semibold">STARBUCKS IS...</p>
+              <h1 className="text-[120px] font-anton leading-tight text-gray-100">
                 HOT OR COLD <br /> IT IS THE BEST
               </h1>
               <div className="flex justify-start items-center flex-row gap-6 mt-8">
@@ -63,19 +62,19 @@ const Home = () => {
           transition={{ duration: 0.4, delay: 0.1 }}
           className="flex flex-row ml-28 gap-10 mt-3"
         >
-          <div className="flex h-36 w-36 bg-gradient-to-b from-green-800 to-green-600 rounded-2xl justify-center  ">
+          <div className="flex h-32 w-32 bg-gradient-to-b from-green-800 to-green-600 rounded-2xl justify-center  ">
             <img src={cup1} alt="cups" className="object-contain" />
           </div>
-          <div className="flex h-36 w-36 bg-gradient-to-b from-green-800 to-green-600 rounded-2xl justify-center  ">
+          <div className="flex h-32 w-32 bg-gradient-to-b from-green-800 to-green-600 rounded-2xl justify-center  ">
             <img src={cup2} alt="cups" className="object-contain" />
           </div>
-          <div className="flex h-36 w-36 bg-gradient-to-b from-green-800 to-green-600 rounded-2xl justify-center  ">
+          <div className="flex h-32 w-32 bg-gradient-to-b from-green-800 to-green-600 rounded-2xl justify-center  ">
             <img src={cup3} alt="cups" className="object-contain" />
           </div>
-          <div className="flex h-36 w-36 bg-gradient-to-b from-green-800 to-green-600 rounded-2xl justify-center  ">
+          <div className="flex h-32 w-32 bg-gradient-to-b from-green-800 to-green-600 rounded-2xl justify-center  ">
             <img src={cup4} alt="cups" className="object-contain" />
           </div>
-          <div className="flex h-36 w-36 bg-gradient-to-b from-green-800 to-green-600 rounded-2xl justify-center  ">
+          <div className="flex h-32 w-32 bg-gradient-to-b from-green-800 to-green-600 rounded-2xl justify-center  ">
             <img src={cup5} alt="cups" className="object-contain" />
           </div>
         </motion.div>
